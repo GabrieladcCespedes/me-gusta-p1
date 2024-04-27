@@ -1,0 +1,26 @@
+/*Gabriela Céspedes*/
+/*conteiner ubica al bloque block en el centro de la pagina*/
+#conteiner{
+    display: flex;
+    justify-content: center;
+    
+}
+/*se define un tamaño, un bordde para el bloque */
+.block{
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+}
+/*se ubica el contenido de line1*/
+.line1{
+    display: flex;
+    justify-content: space-between;
+
+}
+/*se cambia el color del boton, se le coloca una sombra y tambien el tamaño*/
+.btn{
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+    box-shadow: 3px 3px black;
+}
